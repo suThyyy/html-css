@@ -1,4 +1,10 @@
-h1 {
-    color: aqua;
+#first-heading {
+    color: red;
     font-size: 100px;
 }
+.second-heading {
+    color: blue;
+    font-size: 50px;
+}
+/* id dùng dấu thăng
+    class dùng dấu chấm */
