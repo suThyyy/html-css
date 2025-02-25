@@ -4,14 +4,34 @@
         <title>suThy's shop</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="main.css">
-<!-- Thuộc tính css chung cho nhiều đối tượng: sử dụng class -->
+
+        <style>
+            #id-heading {
+                color: blue;
+            }
+            h1#id-heading.class-heading {
+                color: red;
+            }
+            .class-heading {
+                color: yellow;
+            }
+            h1 {
+                color: green;
+            }
+        </style>
     </head>
     <body>
         <div>
-            <h1 id="first-heading">CSS selectors?</h1>
-            <h1 class="second-heading">CSS selectors?</h1>
-            <h1 class="second-heading">CSS selectors?</h1>
-            <h2 class="second-heading">ID & class</h2>
+            <h1 id="id-heading" class="class-heading">Priority?</h1>
+            <ol>
+                <li>Internal, External?</li> <!-- Khong có độ ưu tiên, cái nào gọi trước thì thực hiện cái đó-->
+                <li>Inline - 1000</li>
+                <li>#id - 100</li>
+                <li>.class - 10</li>
+                <li>tag - 1</li>
+                <li>Equal specificity?</li>
+                <li>Universal selector and inherited?</li>
+            </ol>
         </div>
     </body>
 </html>
