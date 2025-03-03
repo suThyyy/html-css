@@ -5,26 +5,47 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="main.css">
 
-        <!-- <style>
-            #id-heading {
-                color: blue;
-            }
-            h1#id-heading.class-heading {
-                color: red;
-            }
-            .class-heading {
-                color: yellow;
-            }
-            h1 {
-                color: green;
-            }
-        </style> -->
+        <style>
+           .box {
+                width: 50%;
+                height: 100px;
+                background-color: red;
+           }
+
+           h1 {
+            font-size: 40px;
+           }
+        </style>
     </head>
     <body>
+        <div class="box"></div>
         <div>
-           <h1>CSS Variable?</h1>
-           <h2>Heading two</h2>
-           <h3>Heading three</h3>
+           <h1>CSS Units?</h1>
+           <!-- là những đơn vị trong css giúp ta tùy chỉnh kích thước hiển thị -->
+            <!-- Chú tâm vào những đơn vị màu đỏ -->
+           <h2>1.Absolute units</h2>
+           <!-- Kich thuoc khong thay doi khi man hinh thay doi, vi du nhu thu nho phong to, ... -->
+           <ul>
+            <li style="color: red;">px</li>
+            <li>pt</li>
+            <li>cm</li>
+            <li>mm</li>
+            <li>inch</li>
+            <li>pc</li>
+           </ul>
+           <h2>2.Relative units</h2>
+           <!-- Kich thuoc thay doi khi doi tuong no phu thuoc thay doi -->
+           <ul>
+            <li style="color: red;">%</li>
+            <li style="color: red;">rem</li>
+            <li style="color: red;">em</li>
+            <li style="color: red;">vw</li>
+            <li style="color: red;">vh</li>
+            <li>vmin</li>
+            <li>vmax</li>
+            <li>ex</li>
+            <li>ch</li>
+           </ul>
         </div>
     </body>
 </html>
