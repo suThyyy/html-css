@@ -6,44 +6,33 @@
         <link rel="stylesheet" href="main.css">
 
         <style>
-            html {
-                font-size: 50px;
+            .box {
+                width: 60px;
+                height: 60px;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
 
-           .box {
-                width: 50%;
-                /* Kich thuoc dua tren thẻ của nó, ở đây thẻ của box là body */
-                height: 100px;
-                background-color: red;
-           }
+            .box1 {
+                background-color: #333;
+            }
 
-           h1 {
-            font-size: 1rem;
-            /* phu thuoc vao kich thuoc cua the html */
-           }
+            .box2 {
+                background-color: orange;
+            }
 
-           h2 {
-            font-size: 1em;
-            /* Phu thuoc vao the gan nhat chua no co thuoc tinh font-size */
-           }
-
-           /* vw - viewport width, vh - viewport height 
-              khung nhin*/
-
-           .box {
-            width: 80vw;
-            /* ti le voi chieu ngang cua trinh duyet */
-            height: 10vh;
-            /* ti le voi chieu doc cua trinh duyet */
-            background-color: blue;
-           }
+            .box3 {
+                background-color: firebrick;
+                padding: 10px 20px 15px 35px;
+                /* Vùng đệm thêm vào làm tổng kích thước đối tượng tăng lên */
+            }
         </style>
     </head>
     <body>
-        <div class="box"></div>
-        <div style="font-size: 100px;">
-           <h1>CSS Units?</h1>
-           <h2>Demo em</h2>
-        </div>
+        <div class="box box1">Box 1</div>
+        <div class="box box2">Box 2</div>
+        <div class="box box3">Box 3</div>
     </body>
 </html>
