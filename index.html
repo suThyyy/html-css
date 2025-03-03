@@ -6,46 +6,44 @@
         <link rel="stylesheet" href="main.css">
 
         <style>
+            html {
+                font-size: 50px;
+            }
+
            .box {
                 width: 50%;
+                /* Kich thuoc dua tren thẻ của nó, ở đây thẻ của box là body */
                 height: 100px;
                 background-color: red;
            }
 
            h1 {
-            font-size: 40px;
+            font-size: 1rem;
+            /* phu thuoc vao kich thuoc cua the html */
+           }
+
+           h2 {
+            font-size: 1em;
+            /* Phu thuoc vao the gan nhat chua no co thuoc tinh font-size */
+           }
+
+           /* vw - viewport width, vh - viewport height 
+              khung nhin*/
+
+           .box {
+            width: 80vw;
+            /* ti le voi chieu ngang cua trinh duyet */
+            height: 10vh;
+            /* ti le voi chieu doc cua trinh duyet */
+            background-color: blue;
            }
         </style>
     </head>
     <body>
         <div class="box"></div>
-        <div>
+        <div style="font-size: 100px;">
            <h1>CSS Units?</h1>
-           <!-- là những đơn vị trong css giúp ta tùy chỉnh kích thước hiển thị -->
-            <!-- Chú tâm vào những đơn vị màu đỏ -->
-           <h2>1.Absolute units</h2>
-           <!-- Kich thuoc khong thay doi khi man hinh thay doi, vi du nhu thu nho phong to, ... -->
-           <ul>
-            <li style="color: red;">px</li>
-            <li>pt</li>
-            <li>cm</li>
-            <li>mm</li>
-            <li>inch</li>
-            <li>pc</li>
-           </ul>
-           <h2>2.Relative units</h2>
-           <!-- Kich thuoc thay doi khi doi tuong no phu thuoc thay doi -->
-           <ul>
-            <li style="color: red;">%</li>
-            <li style="color: red;">rem</li>
-            <li style="color: red;">em</li>
-            <li style="color: red;">vw</li>
-            <li style="color: red;">vh</li>
-            <li>vmin</li>
-            <li>vmax</li>
-            <li>ex</li>
-            <li>ch</li>
-           </ul>
+           <h2>Demo em</h2>
         </div>
     </body>
 </html>
