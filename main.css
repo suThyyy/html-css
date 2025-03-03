@@ -1,5 +1,19 @@
-h1 {
-    color: red;
+/* biến global */
+:root {
+    --text-color: blue;
 }
-/* id dùng dấu thăng
-    class dùng dấu chấm */
+
+h1 {
+    --my-color: green;
+    color: var(--my-color);
+}
+
+h2 {
+    color: var(--text-color);
+}
+
+h3 {
+    color: var(--my-color);
+}
+/* Muc dich su dung bien trong CSS: khi có nhiều thẻ chung thuộc tính, muốn thay đổi tất cả thì chỉ cần
+thay đổi giá trị biến */
