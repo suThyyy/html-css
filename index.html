@@ -13,14 +13,17 @@
 
             .header {
                 width: 100%;
-                height: 100px;
-                background-color: red;
-                padding: 20px;
-                box-sizing: border-box;
-                border: 10px dashed black;
-                background-clip: border-box;
+                height: 100vh;
+                background-image: linear-gradient(0, rgba(255, 255, 0, 0.5), rgba(0, 255, 255, 0.5)),
+                                    url(https://pbs.twimg.com/media/FP8vCzmXMAUVKQU.png);
+                background-size: 100px;
             }
-            /* Background-clip: tuỳ chọn tô màu background cho content hoặc padding trở vào hoặc border trở vào */
+            /* background-image: url(); thêm ảnh vào nền web
+background-size: canh chỉnh ảnh
+background-repeat: repeat/ no-repeat/ repeat-x, y là tung hoành dài và dọc
+background-image: linear-gradient(*, *, *)
+dấu *1 là độ nghiêng ảnh >0 thêm deg vào
+2 *3 có thể cho màu rgba(*, *, *, *) gồm 4 là màu sắc */
         </style>
     </head>
     <body>
