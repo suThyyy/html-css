@@ -16,12 +16,16 @@
                 height: 100vh;
                 background-image: url(https://thuvienanime.net/wp-content/uploads/2023/09/tong-quan-uyen-thuvienanime-6-1.jpg);
                 background-repeat: no-repeat;
-                background-size: contain;
-                background-size: cover;
-                /* 1. contain: tự động kéo ảnh cho đến khi chiều rộng hoặc chiều cao của khối cần tô màu được lấp đầy (chỉ cần 1 trong 2 là được), dù khối mà mình cần tô màu có bị trống cũng không sao.
-2. cover: tự động kéo ảnh cho đến khi cả chiều rộng và chiều cao được lấp đầy, cho dù ảnh có bị cắt cũng không sao, cũng tức là lúc này này khối mà mình cần tô đã được bao phủ hoàn toàn rồi. */
+                background-size: 100%;
+                border: 20px dashed #ccc;
+                padding: 20px;
+                box-sizing: border-box;
+                background-origin: content-box ;
+                /* background-origin :  ( dùng như background-clip)  nhưng apply for image
+content-box : đổ background vào content
+padding-box : đổ background vào padding
+border-box : đổ background vào border */
             }
-            
         </style>
     </head>
     <body>
