@@ -26,3 +26,18 @@ p {
     color: #ffa400;
     color: #666666;
 }
+.background {
+    background-color: aqua;
+    /* width: 100px; */
+    max-width: 50%;
+    /* height: 100px; */
+    /* chiều cao tối thiểu 100, khi nd dài hơn 100 -> tùy chỉnh theo */
+    min-height: 100px;
+    max-height: 200px;
+    background-color: #2979ff;
+    /* tràn -> ẩn đi */
+    /* overflow: hidden;  */
+    /* tràn -> scroll : x chiều ngang : y chiều dọc */
+    /* overflow-y: auto; */
+
+}
