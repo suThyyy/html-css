@@ -87,6 +87,24 @@ html {
     height: 10rem;
     background-color: #ff7870;
     font-size: 32px;
+    /* border: 2px solid black;
+    border-style: dotted;
+    border-style: dashed; */
+    /* border-top: 1px solid #000;
+    border-right: 5px dashed pink;
+    border-bottom: 10px dotted yellow;
+    border-left: 10px solid red; */
+    /* border-radius: 10px 20px 30px 40px; */
+    border-top-left-radius: 50px 50px;
+    border-top-right-radius: 50px 50px;
+    border-bottom-right-radius: 50px 50px;
+    border-bottom-left-radius: 50px 50px;
+    border-radius: 50%;
+    outline: 2px solid blue;
+    /* border-radius: bo góc
+    50% -> hình tròn
+    */
+    /* border: border-width border-style border-color */
     /* sẽ phụ thuộc vào thuộc tính fontsize của thẻ html */
     /* 
     100% = 16px
