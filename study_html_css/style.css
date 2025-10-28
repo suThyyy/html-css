@@ -1,0 +1,28 @@
+/* 
+b14
+cấu trúc 1 đoạn code css
+selector {
+property: value
+}
+
+selectors: tags: p, div, h1, main
+class: .demo, .header
+id: #container, #footer
+property: color, background-color
+value: red, blue, orange
+*/
+p {
+    /* 
+    value color: red, yellow, blue
+    hexa #ffa400, #ff7870
+    rgba
+    a = opacity : độ trong suốt
+    */
+    color: red;
+    color: yellow;
+    color: blue;
+    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 1, 0.5);
+    color: #ffa400;
+    color: #666666;
+}
