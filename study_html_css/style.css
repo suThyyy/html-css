@@ -44,6 +44,12 @@ p {
 .wrap {
     width: 400px;
 }
+
+html {
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
 .background2 {
     /* background-image: url(https://images.unsplash.com/photo-1761470758032-42acd372d6f5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170); */
     /* phải set width height cho bg */
@@ -65,4 +71,26 @@ p {
     /* % theo ptu cha, ptu cha là wrap = 400px -> width background = 400px */
     width: 100vw;
     height: 100vh;
+}
+/* font-size: 100% = 16px mặc định hầu hết mọi trình duyệt */
+/* 1em = 1rem = 16px */
+.em {
+    width: 10em;
+    height: 10em;
+    background-color: #ffa400;
+    font-size: 32px;
+    /* là đơn vị sẽ phụ thuộc vào thuộc tính fontsize của chính nó hoặc ptu chứa nó */
+}
+.rem {
+    /* rem là đơn vị relative, không cố định như px */
+    width: 10rem;
+    height: 10rem;
+    background-color: #ff7870;
+    font-size: 32px;
+    /* sẽ phụ thuộc vào thuộc tính fontsize của thẻ html */
+    /* 
+    100% = 16px
+    %?=10px
+    ?=62.5%
+    */
 }
