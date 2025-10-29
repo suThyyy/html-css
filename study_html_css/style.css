@@ -129,6 +129,7 @@ html {
         /* center */
         margin-left: auto;
         margin-right: auto;
+        /* margin có thể điền số âm, số âm -> lùi */
     }
 .margin2 {
     width: 14rem;
@@ -143,4 +144,13 @@ html {
     trên và dưới đều 50px -> đáng ra là 100 nhưng thực tế là 50 
     lấy cái cao hơn
     */
+}
+.padding {
+    width: 10rem;
+    height: 10rem;
+    background-color: blueviolet;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px;
+    /* viết rút gọn tương tự như margin */
 }
