@@ -83,6 +83,7 @@ html {
 }
 .rem {
     /* rem là đơn vị relative, không cố định như px */
+    /* phụ thuộc vào fontsize của thẻ html */
     width: 10rem;
     height: 10rem;
     background-color: #ff7870;
@@ -110,5 +111,36 @@ html {
     100% = 16px
     %?=10px
     ?=62.5%
+    */
+}
+.margin {
+        width: 14rem;
+        height: 14rem;
+        background-color: red;
+        margin: 10px 10px 10px 10px;
+        /* top=right=bot=left=25 */
+        margin: 25px;
+        /* top=bot=20 r=l=40 */
+        margin: 20px 40px;
+        /* top=10 r=l=20 bot=30 */
+        margin: 10px 20px 30px;
+        /* top right bottom left */
+        margin:10px 20px 30px 40px;
+        /* center */
+        margin-left: auto;
+        margin-right: auto;
+    }
+.margin2 {
+    width: 14rem;
+    height: 14rem;
+    background-color: blueviolet;
+    margin-bottom: 50px;
+    margin-bottom: 70px;
+}
+.margin3 {
+    margin-top: 50px;
+    /* margin collapse
+    trên và dưới đều 50px -> đáng ra là 100 nhưng thực tế là 50 
+    lấy cái cao hơn
     */
 }
