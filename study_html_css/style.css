@@ -1,3 +1,15 @@
+html {
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+* {
+    box-sizing: border-box;
+    /* nên sử dụng cho toàn bộ trang web 
+    dùng selector *
+    */
+}
+
 /* 
 b14
 cấu trúc 1 đoạn code css
@@ -43,11 +55,6 @@ p {
 }
 .wrap {
     width: 400px;
-}
-
-html {
-    font-size: 62.5%;
-    /* 1rem = 10px */
 }
 
 .background2 {
@@ -153,4 +160,25 @@ html {
     overflow: hidden;
     padding: 10px;
     /* viết rút gọn tương tự như margin */
+}
+.boxed {
+    width: 10rem;
+    height: 10rem;
+    border: 5px solid black;
+    padding: 1rem;
+    background-color: orange;
+    box-sizing: content-box;
+    box-sizing: border-box;
+    /* 
+    content-box
+    width = width + paddingleft + paddingright + borderleft + borderright
+    width = 100 + 10 + 10 + 5 + 5 = 130
+    height = height + padding-top + padding-bottom + border-top + border-bottom
+
+
+    border-box
+    width = width - (paddingleft + paddingright + borderleft + borderright) = 70px
+    height = height - (padding-top + padding-bottom + border-top + border-bottom) = 70px
+
+    */
 }
