@@ -5,11 +5,18 @@ html {
 
 * {
     box-sizing: border-box;
-    /* nên sử dụng cho toàn bộ trang web 
+    /* nên sử dụng cho toàn bộ trang web
     dùng selector *
     */
 }
-
+body {
+    /* embed từ gg fonts kiểu poppins */
+     font-family: "Poppins", sans-serif;
+     font-size: 1.6rem;
+     /* độ đậm nhạt */
+     font-weight: 300;
+     font-style: italic;
+}
 /* 
 b14
 cấu trúc 1 đoạn code css
