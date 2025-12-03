@@ -201,3 +201,33 @@ a {
     display: none;
     /* thẻ inline bị hạn chế nhiều css -> dùng thuộc tính display */
 }
+
+.text {
+    /* khoảng cách giữa các dòng */
+    line-height: 1.5;
+    /* text-align: right;
+    text-align: left; */
+    /* text-align: center; */
+    /* text-align: justify; */
+    /* max-width: 300px; */
+    /* kc giua cac ki tu */
+    /* letter-spacing: 1px; */
+    /* kc giua cac từ */
+    /* word-spacing: 02px; */
+    /* chỉ hiển thị 1 dòng */
+    /* white-space: nowrap; */
+    /* tràn thì ẩn */
+    /* overflow: hidden; */
+    /* hiện dấu ... */
+    /* text-overflow: ellipsis; */
+    /* hiển thị dấu 3 chấm tới hàng thứ 3 */
+    /* display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+    /*từ quá dài -> xuống dòng */
+    /* word-break: break-all; */
+    /* xuống dòng theo từ */
+    /* word-break: break-word; */
+}
