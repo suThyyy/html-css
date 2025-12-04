@@ -194,7 +194,7 @@ p {
 
     */
 }
-a {
+/* a {
     color: white;
     text-decoration: none;
     width: 10rem;
@@ -204,8 +204,8 @@ a {
     display: inline-block;
     display: block;
     display: none;
-    /* thẻ inline bị hạn chế nhiều css -> dùng thuộc tính display */
-}
+    /* thẻ inline bị hạn chế nhiều css -> dùng thuộc tính display
+} */
 
 .text {
     /* khoảng cách giữa các dòng */
@@ -239,6 +239,7 @@ a {
 .image {
     width: 20rem;
     height: 20rem;
+    /* giữ ảnh không bị méo */
     object-fit: cover;
     object-position: bottom;
     /* căn giữa thẻ block */
@@ -249,4 +250,26 @@ a {
 .img-wrap {
     /* cách đưa thẻ inline ra giữa -> bọc vào 1 div -> text align */
     text-align: center;
+}
+.pseudo {
+    color: black;
+    font-size: 5rem;
+}
+
+.pseudo:hover {
+    /* chạm vào thì đổi màu */
+    color: red;
+}
+.pseudo:visited {
+    /* đã click vào thì đổi màu */
+    color: blue;
+}
+
+.pseudo:active {
+    /* đang click thì đổi màu */
+    color: green;
+}
+
+a {
+    display: inline-block;
 }
